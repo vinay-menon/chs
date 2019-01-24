@@ -1358,8 +1358,8 @@ article[class*="type-"] .entry-content > .btn-block .about-author a:hover {
 	height: auto;
 }
 .navbar-brand.image-logo {
-	max-width: 240px;	
-	max-height: 70px;
+	max-width: 400px;	
+	/* max-height: 70px; */
 	overflow: hidden;
 	display: inline-block;
 	height: auto;

@@ -17,6 +17,19 @@
 	margin-bottom: 0;
 	position: relative;
 }
+
+.navbar-nav a {
+	color: #1c2024!important;
+	font-size: 20px!important;
+	font-family: "Meera", sans-serif!important;
+}
+#menu-primary-menu {
+	width: 100%!important;
+	max-width: 100%!important;
+	min-width: 100%!important;
+	display: flex;
+	justify-content: space-between;
+	}
 .ow-navigation .navbar-brand {
 	height: auto;
 }
@@ -35,7 +48,7 @@
 	border-radius: 0;
 	color: #fff;
 	display: inline-block;
-	font-family: "Meera",sans-serif;
+	font-family: "Meera", sans-serif!important;
 	font-size: 14px;
 	font-weight: 500;
 	letter-spacing: 0.7px;

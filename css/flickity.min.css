@@ -61,10 +61,12 @@ http://flickity.metafizzy.co
     position: relative;
     }
 .slide-text {
-    max-width: 600px;
     position: absolute;
-    bottom: 10%;
-    left: 10%;
+    width: 100%;
+    max-width: 1170px;
+    left: 0; right: 0;
+    top: 35%;
+    margin: auto;
     transform: translateX(-100%);
     opacity: 0;
     transition: 1s;
@@ -74,6 +76,7 @@ p.slide-desc {
     color: white;
     margin-bottom: 24px;
     font-size: 21px;
+    max-width: 600px;
     }
 .is-selected .slide-text {
     opacity: 1;
@@ -82,7 +85,7 @@ p.slide-desc {
 .slide-heading {
     font-family: "keraleeyam";
     /* font-weight: 900; */
-    font-size: 4rem;
+    font-size: 6rem;
     color: white;
     /* margin-bottom: 6px; */
     }
