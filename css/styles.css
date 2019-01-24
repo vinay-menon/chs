@@ -1,3 +1,56 @@
+@font-face {
+   font-family: "Rachana";
+   src: 
+		url(fonts/Rachana-Regular.woff),
+		url(fonts/Rachana-Regular.woff2),
+		url(fonts/Rachana-Regular.ttf);
+   font-size: normal;
+}
+@font-face {
+   font-family: "Rachana";
+   src: 
+		url(fonts/Rachana-Bold.woff),
+		url(fonts/Rachana-Bold.woff2),
+		url(fonts/Rachana-Bold.ttf);
+   font-size: bold;
+}
+@font-face {
+   font-family: "Manjari";
+   src: 
+		url(fonts/Manjari-Regular.otf);
+   font-size: normal;
+}
+@font-face {
+   font-family: "Manjari";
+   src: 
+		url(fonts/Manjari-Bold.otf);
+   font-size: bold;
+}
+@font-face {
+   font-family: "Manjari";
+   src: 
+		url(fonts/Manjari-Thin.otf);
+   font-size: 300;
+}
+@font-face {
+   font-family: "Meera";
+   src: 
+		url(fonts/Meera-Regular.ttf),
+		url(fonts/Meera-Regular.woff),
+		url(fonts/Meera-Regular.woff2);
+   font-size: normal;
+}
+@font-face {
+   font-family: "Keraleeyam";
+   src: 
+		url(fonts/Keraleeyam-Regular.ttf),
+		url(fonts/Keraleeyam-Regular.woff),
+		url(fonts/Keraleeyam-Regular.woff2);
+   font-size: normal;
+}
+
+
+
 div.wpcf7 {
 	margin: 0;
 	padding: 0;
