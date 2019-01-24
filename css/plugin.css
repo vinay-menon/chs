@@ -1,0 +1,9 @@
+/* - Map  */
+.map-section {
+	position: relative;
+}
+.map-section .map-canvas {
+	height: 489px;
+	width: 100%;
+	display: inline-block;
+}
