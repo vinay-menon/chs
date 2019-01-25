@@ -323,7 +323,7 @@ input[type=number]::-webkit-outer-spin-button {
 	bottom: 0;
 }
 .visit-block .container > p {
-	font-family: 'Segoe UI', sans-serif;
+	font-family: 'Meera', sans-serif;
 	font-size: 80px;
 	margin: 0;
 	text-transform: uppercase;
@@ -331,8 +331,8 @@ input[type=number]::-webkit-outer-spin-button {
 	letter-spacing: 16px;
 }
 .visit-block .container > p + p {
-	margin-top: 64px;
-	font-size: 48px;
+	margin-top: 32px;
+	font-size: 30px;
 	letter-spacing: 0;
 }
 
@@ -712,9 +712,9 @@ footer .widget.widget_nav_menu ul li a:hover {
 	
 }
 .section-header h3 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Manjari', sans-serif;
 	color: hsla(0, 0%, 81%, 0.473);
-	font-size: 80px;
+	font-size: 70px;
 	font-weight: bold;
 	letter-spacing: -1.6px;
 	text-transform: uppercase;
@@ -723,7 +723,7 @@ footer .widget.widget_nav_menu ul li a:hover {
 	line-height: 76px;
 	word-wrap: break-word;
 	position: relative;
-}
+	}
 .lang-mal {
 	font-family: 'Manjari', 'Poppins', sans-serif;
 	}

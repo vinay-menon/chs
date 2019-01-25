@@ -464,7 +464,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 /* - Testimonial Section */
 .testimonial-section {
-	padding-bottom: 95px;
+	/* padding-bottom: 95px; */
 	padding-top: 100px;
 	background-color: #f8f8f8;
 }
@@ -1673,7 +1673,6 @@ article[class*="type-"] .entry-content > .btn-block a:not(.btn):hover {
 
 /* - Latest Blog */
 .latest-blog-section {
-	padding-bottom: 70px;
 	padding-top: 100px;
 }
 .latest-blog article[class*="type-"] .entry-header {
