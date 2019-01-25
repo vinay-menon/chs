@@ -30,6 +30,9 @@
 	display: flex;
 	justify-content: space-between;
 	}
+[aria-expanded="true"] #menu-primary-menu {
+	flex-direction: column;
+	}
 .ow-navigation .navbar-brand {
 	height: auto;
 }
