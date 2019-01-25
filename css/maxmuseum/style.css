@@ -309,7 +309,7 @@ input[type=number]::-webkit-outer-spin-button {
 	background-size: cover;
 	position: relative;
 	text-align: center;
-	padding-top: 97px;
+	padding: 97px;
 	padding-bottom: 130px;
 }
 .visit-block::before {
@@ -323,15 +323,17 @@ input[type=number]::-webkit-outer-spin-button {
 	bottom: 0;
 }
 .visit-block .container > p {
-	font-family: 'Poppins', sans-serif;
-	font-size: 24px;
-	font-weight: bold;
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 80px;
 	margin: 0;
 	text-transform: uppercase;
 	position: relative;
-	letter-spacing: -0.48px;
-	line-height: 44px;
-	color: #000;
+	letter-spacing: 16px;
+}
+.visit-block .container > p + p {
+	margin-top: 64px;
+	font-size: 48px;
+	letter-spacing: 0;
 }
 
 .footer-section {

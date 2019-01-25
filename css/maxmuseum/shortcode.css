@@ -2234,7 +2234,7 @@ article[class*="type-"] .btn-block .tags a {
 @media (max-width: 991px) {
 	/* - History Section */
 	.history-details {
-		margin-top: 50px;
+		/* margin-top: 50px; */
 	}	
 	
 	/* - Venu Section */
