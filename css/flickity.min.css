@@ -26,7 +26,12 @@ http://flickity.metafizzy.co
     }
 @media (max-width: 780px) {
     .carousel {
-        padding-top: calc(900 / 823 * 100%);
+        padding-top: calc(900 / 780 * 100%);
+        }
+    }
+@media (max-width: 400px) {
+    .carousel {
+        padding-top: calc(600 / 400 * 100%);
         }
     }
 
