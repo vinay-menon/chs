@@ -86,6 +86,7 @@
 }
 .ow-navigation.navbar-default .navbar-nav > li > a:hover {
 	background-color: #fff!important;
+	color: #e2b13d!important;
 	}
 .ow-navigation.navbar-default .navbar-nav > .active > a, 
 .ow-navigation.navbar-default .navbar-nav > .active > a:focus, 
