@@ -1367,6 +1367,11 @@ article[class*="type-"] .entry-content > .btn-block .about-author a:hover {
 	padding-bottom: 6px;
 }
 
+.image-logo svg {
+	width: 100%;
+	max-width: 100%;
+	}
+
 
 /* - Header Logo: Custom Text */
 .navbar-brand.custom-txt {
@@ -1923,6 +1928,10 @@ article[class*="type-"] .entry-content > .btn-block .about-author a:hover {
 	word-wrap: break-word;
 	max-width: 100%;
 }
+.textwidget svg {
+	width: 100%;
+	max-width: 100%;
+	}
 .widget_text .textwidget p {
 	padding: 0;
 	line-height: 24px;
