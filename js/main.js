@@ -107,7 +107,7 @@
 		});
 		
 		/* - Responsive Caret */
-		$(".ddl-switch").on("click", function() {
+		$(".dropdown-toggle").on("click", function() {
 			var li = $(this).parent();
 			if ( li.hasClass("ddl-active") || li.find(".ddl-active").length !== 0 || li.find(".dropdown-menu").is(":visible") ) {
 				li.removeClass("ddl-active");
