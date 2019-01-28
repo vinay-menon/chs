@@ -28,10 +28,8 @@
 	max-width: 100%!important;
 	min-width: 100%!important;
 	display: flex;
-	justify-content: space-between;
-	}
-[aria-expanded="true"] #menu-primary-menu {
 	flex-direction: column;
+	justify-content: space-between;
 	}
 .ow-navigation .navbar-brand {
 	height: auto;
@@ -83,9 +81,12 @@
 	-moz-transition: all 1s ease 0s;
 }
 .ow-navigation.navbar-default .navbar-nav > li > a {
-	padding: 20px 14px;
+	/* padding: 20px 14px; */
 	position: relative;
 }
+.ow-navigation.navbar-default .navbar-nav > li > a:hover {
+	background-color: #fff!important;
+	}
 .ow-navigation.navbar-default .navbar-nav > .active > a, 
 .ow-navigation.navbar-default .navbar-nav > .active > a:focus, 
 .ow-navigation.navbar-default .navbar-nav > .active > a:hover,
@@ -102,6 +103,9 @@
 	.header-section .menu-block .ow-navigation .navbar-brand {
 		display: none;
 	}
+	#menu-primary-menu {
+		flex-direction: row;
+		}
 	.ow-navigation .navbar-header {
 		margin-top: 0;
 	}
@@ -113,11 +117,11 @@
 		padding-right: 25px;
 	}
 	.ow-navigation.navbar-default .navbar-nav > li {
-		margin-left: 24px;
-		margin-right: 24px;
+		/* margin-left: 24px;
+		margin-right: 24px; */
 	}
 	.ow-navigation.navbar-default .navbar-nav > li > a {
-		padding: 20px 0;
+		padding: 20px 14px;
 	}
 	/* - Menu Block 2 */
 	.header-section .menu-block2 {
@@ -134,8 +138,8 @@
 		padding: 20px 0 44px;
 	}
 	.menu-block2 .ow-navigation.navbar-default .navbar-nav > li {
-		margin-left: 27px;
-		margin-right: 27px;
+		/* margin-left: 27px;
+		margin-right: 27px; */
 	}
 	.menu-block2 .ow-navigation.navbar-default .navbar-nav > li:last-child {
 		margin-right: 0;
@@ -268,12 +272,12 @@
 		padding-right: 10px;
 	}
 	.ow-navigation.navbar-default .navbar-nav > li {
-		margin-left: 11px;
-		margin-right: 11px;
+		/* margin-left: 11px;
+		margin-right: 11px; */
 	}	
 	.menu-block2 .ow-navigation.navbar-default .navbar-nav > li {
-		margin-left: 17px;
-		margin-right: 17px;
+		/* margin-left: 17px;
+		margin-right: 17px; */
 	}
 }
 
@@ -414,11 +418,11 @@
 		position: relative;
 		display: inline-block;
 		width: 100%;
-		padding-left: 15px;
-		padding-right: 15px;
+		/* padding-left: 15px;
+		padding-right: 15px; */
 	}
 	.ow-navigation.navbar-default .navbar-nav > li > a {
-		padding: 10px 0;
+		padding: 15px;
 	}
 	.ow-navigation.navbar-default .navbar-nav > li > a span {
 		display: none;
