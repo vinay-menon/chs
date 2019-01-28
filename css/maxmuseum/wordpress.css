@@ -1460,9 +1460,9 @@ article[class*="type-"] .entry-content > .btn-block .about-author a:hover {
 	background-image: url("../images/ftr-widget-arrow.png");
 	background-repeat: no-repeat;
 	background-position: left bottom;
-	font-family: 'Poppins', sans-serif;
-	font-size: 18px;
-	font-weight: 700;
+	font-family: 'Keraleeyam', sans-serif;
+	font-size: 32px;
+	font-weight: normal;
 	letter-spacing: 0.72px;
 	line-height: 35px;
 	padding-bottom: 13px;

@@ -464,16 +464,19 @@ footer .widget_mc4wp_form_widget .widget-title {
 	margin: 0;
 	padding: 18px 15px 15px;
 	color: #333;
-	font-size: 18px;
-	font-family: 'Poppins', sans-serif;
-	font-weight: bold;
+	font-size: 32px;
+	font-family: 'Keraleeyam', sans-serif;
+	font-weight: normal;
 	text-transform: uppercase;
 	background-image: none;
 }
 footer .widget_mc4wp_form_widget form {
 	background-color: #f6f6f6;
-	padding: 30px 33px;
+	padding: 0 33px 30px;
 }
+.mc4wp-form-fields input {
+	font-family: "Meera", sans-serif;
+	}
 footer .widget_mc4wp_form_widget form .form-group {
 	margin-bottom: 0;
 }
