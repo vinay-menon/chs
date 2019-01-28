@@ -352,9 +352,8 @@
 					<div class="navbar-collapse collapse" id="navbar">
 						<ul id="menu-primary-menu" class="nav navbar-nav">
 							<li id="menu-item-271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-9 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-271 dropdown active"><a
-								 title="Home" href="#" class="dropdown-toggle" aria-haspopup="true">മുൻ
-									പേജ്</a>
-							</li>
+								 title="Home" href="#" class="dropdown-toggle" aria-haspopup="true"><i class="fa fa-home" aria-hidden="true"></i>
+</a>
 							<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a title="About Us"
 								 href="#" class="dropdown-toggle" aria-haspopup="true">ഞങ്ങളേക്കുറിച്ച് <span class="fa fa-angle-down"></span></a><i class='ddl-switch fa fa-angle-down'></i>
 
@@ -364,11 +363,13 @@
 							<li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a title="Events"
 								 href="#">ഇവന്റുകൾ</a></li>
 							<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a title="Gallery"
-								 href="#">ഗാലറി</a></li>
+								 href="#">പ്രവർത്തനങ്ങൾ</a></li>
 							<li id="menu-item-258" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-258 dropdown"><a
 								 title="Pages" href="#" class="dropdown-toggle" aria-haspopup="true">ഡൌൺലോഡുകൾ</a>
 							</li>
+							<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a title="Contact Us" href="#">ആർക്കൈവുകൾ</a></li>
 							<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a title="Contact Us" href="#">ബന്ധപ്പെടുക</a></li>
+							</li>
 						</ul>
 					</div>
 					<!--/.nav-collapse -->
@@ -452,7 +453,6 @@
 											<!-- Section Header -->
 											<div class="section-header lang-mal">
 												<h3>
-													<div class="blahground"> സ്വാഗതം</div>
 													<span>ചരിത്രം, <span>ഉദ്ദേശലക്ഷ്യങ്ങൾ</span> </span>
 												</h3>
 											</div><!-- Section Header /- -->
@@ -462,7 +462,7 @@
 												 sizes="(max-width: 940px) 100vw, 940px" /> </div>
 											<div class="col-md-6 history-details">
 												<div class="history-box">
-													<h3 class="lang-mal">കേന്ദ്രത്തിന്റെ <br> പ്രധാന <span>ലക്ഷ്യങ്ങൾ</span></h3>
+													<h3 class="lang-mal">കേന്ദ്രത്തിന്റെ പ്രധാന <span>ലക്ഷ്യങ്ങൾ</span></h3>
 													<p class="lang-mal--meera">തൃകസംബന്ധമായ വിവിധ വിഷയങ്ങളിലുള്ള കോഴ്സുകള്‍ നടത്തുന്നതോടൊപ്പം ഈ മേഖലയിലുള്ള
 														പരിശീലന പരിപാടികള്‍, ശില്പശാലകള്‍, സെമിനാറുകള്‍ തുടങ്ങിയവയും ഈ കേന്ദ്രം നടത്തി വരുന്നു.</p>
 													<ul class="lang-mal--meera">
@@ -507,6 +507,7 @@
 							.events-downloads h3 {
 								font-size: 32px!important;
 								font-family: "Keraleeyam", sans-serif;
+								color: #222;
 								}
 							.events-downloads h4 {
 								font-family: "Manjari"!important;
@@ -545,6 +546,19 @@
 								padding-top: 24px;
 								}
 							
+							.events-downloads .read-more {
+								background-color: #fff!important;
+								margin: 0 auto!important;
+								margin-top: 24px;
+								display: inline-block;
+								padding: 11px 20px;
+								color: #a57e24;
+								}
+							.events-downloads .read-more:hover {
+								background-color: #a57e24!important;
+								color: white;
+								}
+							
 							@media (max-width: 853px) {
 								.col-2 + .col-2 {
 									margin-top: 24px;
@@ -553,7 +567,6 @@
 						</style>
 						<div class="section-header lang-mal">
 							<h3>
-								ഡൌൺലോഡുകൾ
 								<span>വാർത്തകളും, <span>ഡൌൺലോഡുകളും</span> </span>
 							</h3>
 						</div><!-- Section Header /- -->
@@ -591,6 +604,10 @@
 										</li>
 									</ul>
 								</div>
+								
+								<a href="#" title=" " class="read-more">
+									കൂടുതൽ അറിയുക <i class="fa fa-angle-right"></i>
+								</a>
 							</div>
 							<div class="col-2 history-details">
 								<h3 class="lang-mal">വാർത്തകളും സംഭവങ്ങളും</h3>
@@ -602,26 +619,28 @@
 												<i class="icon icon-Time"></i>27 June 2016-26 July 2016 
 											</div>
 											<p>പുരാവസ്തു ശാസ്ത്രം, കലാചരിത്രം, മ്യൂസിയശാസ്ത്രം, പുരാതനകല, പുരാരേഖകളുടെയും സാംസ്കാരിക വസ്തുക്കളുടെയും
-												സംരക്ഷണം മുതലായ വിവിധ ശാഖകളില്‍ പഠനക്രമവും പരിശീലനവും ഗവേഷണവും ഒരുക്കുക.</p>
+												സംരക്ഷണം...</p>
 										</li>
 										<li>
 											<h4>പുരാവസ്തു ശാസ്ത്രം</h4>
 											<div class="post-date">
 												<i class="icon icon-Time"></i>27 June 2016-26 July 2016 
 											</div>
-											<p>കല, മ്യൂസിയശാസ്ത്രം, പുരാവസ്തുശാസ്ത്രം, പുരാതനകല, പുരാരേഖാപഠനം, സാംസ്കാരിക വസ്തുക്കള്‍ എന്നിവയിലും
-												തത്തുല്യകാര്യങ്ങളിലും മൗലികഗവേഷണം നടത്തുന്നതിന് സൗകര്യമുണ്ടാക്കുക.</p>
+											<p>കല, മ്യൂസിയശാസ്ത്രം, പുരാവസ്തുശാസ്ത്രം, പുരാതനകല, പുരാരേഖാപഠനം, സാംസ്കാരിക വസ്തുക്കള്‍...</p>
 										</li>
 										<li>
 											<h4>പുരാവസ്തു ശാസ്ത്രം</h4>
 											<div class="post-date">
 												<i class="icon icon-Time"></i>27 June 2016-26 July 2016 
 											</div>
-											<p>മനുഷ്യന്‍റെ സാംസ്കാരിക പൈതൃകത്തിന്‍റെ സൗന്ദര്യാത്മകവും ശാസ്ത്രീയവുമായ തലങ്ങളില്‍ വിജ്ഞാനത്തിന്‍റെ
-												അഭിവൃദ്ധിയ്ക്കും വ്യാപനത്തിനുമുതകുന്ന ഗവേഷണത്തിന് അംഗീകൃത മാതൃക നിര്‍മ്മിക്കുക.</p>
+											<p>മനുഷ്യന്‍റെ സാംസ്കാരിക പൈതൃകത്തിന്‍റെ സൗന്ദര്യാത്മകവും ശാസ്ത്രീയവുമായ തലങ്ങളില്‍ വിജ്ഞാനത്തിന്‍റെ...</p>
 										</li>
 									</ul>
 								</div>
+								
+								<a href="#" title=" " class="read-more">
+									കൂടുതൽ അറിയുക <i class="fa fa-angle-right"></i>
+								</a>
 							</div>
 						</div>
 
@@ -636,7 +655,7 @@
 												<!-- Section Header -->
 												<div class="section-header">
 													<h3>
-														ഭാരവാഹികൾ<span>ഭാരവാഹികൾ</span>
+														<span>ഭാരവാഹികൾ</span>
 													</h3>
 												</div><!-- Section Header /- -->
 												<!-- Testimonial Carousel -->
@@ -705,7 +724,6 @@
 												<!-- Section Header -->
 												<div class="section-header">
 													<h3>
-														പ്രസിദ്ധീകരണങ്ങൾ
 														<span>പുതിയ
 															<span>പ്രസിദ്ധീകരണങ്ങൾ</span>
 														</span>
@@ -813,7 +831,6 @@
 											<!-- Section Header -->
 											<div class="section-header">
 												<h3>
-													ഗാലറി
 													<span>പുതിയ
 														<span>ഫോട്ടോകൾ</span>
 													</span>
@@ -829,79 +846,73 @@
 											</div> -->
 											<div class="gallery-list gallery-fitrow">
 												<div class="gallery-box col-md-4 col-sm-4 col-xs-6 no-padding ancient-statue modern-art">
-													<img width="634" height="635" src="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery6-634x635.jpg"
-													 class="attachment-maxmuseum_634_635 size-maxmuseum_634_635 wp-post-image" alt="" srcset="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery6-634x635.jpg 634w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery6-150x150.jpg 150w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery6-300x300.jpg 300w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery6-180x180.jpg 180w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery6-600x600.jpg 600w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery6-71x71.jpg 71w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery6-75x75.jpg 75w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery6.jpg 640w"
-													 sizes="(max-width: 634px) 100vw, 634px" />
+													<img width="634" height="635" src="images/gallery/01t.jpg"
+													 class="attachment-maxmuseum_634_635 size-maxmuseum_634_635 wp-post-image" alt=""/>
 													<div class="gallery-content">
-														<h3>Classical Art</h3> <img src="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/plugins/maxmuseum-toolkit/lib/images/gallery-title-seprator.png"
+														<h3>മറയൂർ പെയ്ന്റിങ്സ്‌ </h3> <img src="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/plugins/maxmuseum-toolkit/lib/images/gallery-title-seprator.png"
 														 alt="" />
 														<span>
-															<a class="zoom-out" href="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery6.jpg"
+															<a class="zoom-out" href="images/gallery/01.JPG"
 															 title="Classical Art"><i class="icon icon-Search"></i></a>
 														</span>
 													</div>
 												</div>
 												<div class="gallery-box col-md-4 col-sm-4 col-xs-6 no-padding ancient-statue modern-art modern-art vintage-art">
-													<img width="634" height="635" src="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery5-634x635.jpg"
-													 class="attachment-maxmuseum_634_635 size-maxmuseum_634_635 wp-post-image" alt="" srcset="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery5-634x635.jpg 634w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery5-150x150.jpg 150w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery5-300x300.jpg 300w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery5-180x180.jpg 180w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery5-600x600.jpg 600w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery5-71x71.jpg 71w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery5-75x75.jpg 75w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery5.jpg 640w"
-													 sizes="(max-width: 634px) 100vw, 634px" />
+													<img width="634" height="635" src="images/gallery/02t.jpg"
+													 class="attachment-maxmuseum_634_635 size-maxmuseum_634_635 wp-post-image" alt=""/>
 													<div class="gallery-content">
-														<h3>Classical Art</h3> <img src="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/plugins/maxmuseum-toolkit/lib/images/gallery-title-seprator.png"
+														<h3>ഇടക്കൽ ഗുഹ </h3> <img src="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/plugins/maxmuseum-toolkit/lib/images/gallery-title-seprator.png"
 														 alt="" />
 														<span>
-															<a href="#" target="_blank" title="Link"><i class="icon icon-Linked"></i></a> <a class="zoom-out" href="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery5.jpg"
+															<a href="#" target="_blank" title="Link"><i class="icon icon-Linked"></i></a> <a class="zoom-out" href="images/gallery/02.JPG"
 															 title="Classical Art"><i class="icon icon-Search"></i></a>
 														</span>
 													</div>
 												</div>
 												<div class="gallery-box col-md-4 col-sm-4 col-xs-6 no-padding ancient-statue modern-art modern-art vintage-art ancient-statue vintage-art">
-													<img width="634" height="635" src="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery4-634x635.jpg"
-													 class="attachment-maxmuseum_634_635 size-maxmuseum_634_635 wp-post-image" alt="" srcset="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery4-634x635.jpg 634w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery4-150x150.jpg 150w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery4-300x300.jpg 300w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery4-180x180.jpg 180w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery4-600x600.jpg 600w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery4-71x71.jpg 71w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery4-75x75.jpg 75w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery4.jpg 640w"
-													 sizes="(max-width: 634px) 100vw, 634px" />
+													<img width="634" height="635" src="images/gallery/03t.jpg"
+													 class="attachment-maxmuseum_634_635 size-maxmuseum_634_635 wp-post-image" alt="" />
 													<div class="gallery-content">
-														<h3>Classical Art</h3> <img src="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/plugins/maxmuseum-toolkit/lib/images/gallery-title-seprator.png"
+														<h3>മുസിരീസ് സൈറ്റ് </h3> <img src="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/plugins/maxmuseum-toolkit/lib/images/gallery-title-seprator.png"
 														 alt="" />
 														<span>
-															<a href="#" target="_blank" title="Link"><i class="icon icon-Linked"></i></a> <a class="zoom-out" href="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery4.jpg"
+															<a href="#" target="_blank" title="Link"><i class="icon icon-Linked"></i></a> <a class="zoom-out" href="images/gallery/03.jpg"
 															 title="Classical Art"><i class="icon icon-Search"></i></a>
 														</span>
 													</div>
 												</div>
 												<div class="gallery-box col-md-4 col-sm-4 col-xs-6 no-padding ancient-statue modern-art modern-art vintage-art ancient-statue vintage-art vintage-art">
-													<img width="634" height="635" src="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery3-634x635.jpg"
-													 class="attachment-maxmuseum_634_635 size-maxmuseum_634_635 wp-post-image" alt="" srcset="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery3-634x635.jpg 634w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery3-150x150.jpg 150w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery3-300x300.jpg 300w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery3-180x180.jpg 180w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery3-600x600.jpg 600w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery3-71x71.jpg 71w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery3-75x75.jpg 75w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery3.jpg 640w"
-													 sizes="(max-width: 634px) 100vw, 634px" />
+													<img width="634" height="635" src="images/gallery/04t.jpg"
+													 class="attachment-maxmuseum_634_635 size-maxmuseum_634_635 wp-post-image" alt="" />
 													<div class="gallery-content">
-														<h3>Classical Art</h3> <img src="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/plugins/maxmuseum-toolkit/lib/images/gallery-title-seprator.png"
+														<h3>മട്ടാഞ്ചേരി സിനഗോഗ് </h3> <img src="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/plugins/maxmuseum-toolkit/lib/images/gallery-title-seprator.png"
 														 alt="" />
 														<span>
-															<a href="#" target="_blank" title="Link"><i class="icon icon-Linked"></i></a> <a class="zoom-out" href="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery3.jpg"
+															<a href="#" target="_blank" title="Link"><i class="icon icon-Linked"></i></a> <a class="zoom-out" href="images/gallery/04.jpg"
 															 title="Classical Art"><i class="icon icon-Search"></i></a>
 														</span>
 													</div>
 												</div>
 												<div class="gallery-box col-md-4 col-sm-4 col-xs-6 no-padding ancient-statue modern-art modern-art vintage-art ancient-statue vintage-art vintage-art modern-art">
-													<img width="634" height="635" src="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery2-634x635.jpg"
-													 class="attachment-maxmuseum_634_635 size-maxmuseum_634_635 wp-post-image" alt="" srcset="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery2-634x635.jpg 634w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery2-150x150.jpg 150w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery2-300x300.jpg 300w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery2-180x180.jpg 180w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery2-600x600.jpg 600w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery2-71x71.jpg 71w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery2-75x75.jpg 75w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery2.jpg 640w"
-													 sizes="(max-width: 634px) 100vw, 634px" />
+													<img width="634" height="635" src="images/gallery/05t.jpg"
+													 class="attachment-maxmuseum_634_635 size-maxmuseum_634_635 wp-post-image" alt="" />
 													<div class="gallery-content">
-														<h3>Classical Art</h3> <img src="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/plugins/maxmuseum-toolkit/lib/images/gallery-title-seprator.png"
+														<h3>ചുമർ ചിത്രം </h3> <img src="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/plugins/maxmuseum-toolkit/lib/images/gallery-title-seprator.png"
 														 alt="" />
 														<span>
-															<a href="#" target="_blank" title="Link"><i class="icon icon-Linked"></i></a> <a class="zoom-out" href="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery2.jpg"
+															<a href="#" target="_blank" title="Link"><i class="icon icon-Linked"></i></a> <a class="zoom-out" href="images/gallery/05.jpg"
 															 title="Classical Art"><i class="icon icon-Search"></i></a>
 														</span>
 													</div>
 												</div>
 												<div class="gallery-box col-md-4 col-sm-4 col-xs-6 no-padding ancient-statue modern-art modern-art vintage-art ancient-statue vintage-art vintage-art modern-art ancient-statue modern-art vintage-art">
-													<img width="634" height="635" src="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery1-634x635.jpg"
-													 class="attachment-maxmuseum_634_635 size-maxmuseum_634_635 wp-post-image" alt="" srcset="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery1-634x635.jpg 634w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery1-150x150.jpg 150w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery1-300x300.jpg 300w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery1-180x180.jpg 180w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery1-600x600.jpg 600w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery1-71x71.jpg 71w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery1-75x75.jpg 75w, http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery1.jpg 640w"
-													 sizes="(max-width: 634px) 100vw, 634px" />
+													<img width="634" height="635" src="images/gallery/07t.jpg"
+													 class="attachment-maxmuseum_634_635 size-maxmuseum_634_635 wp-post-image" alt="" />
 													<div class="gallery-content">
-														<h3>Classical Art</h3> <img src="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/plugins/maxmuseum-toolkit/lib/images/gallery-title-seprator.png"
+														<h3>പട്ടണം ഗവേഷണം </h3> <img src="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/plugins/maxmuseum-toolkit/lib/images/gallery-title-seprator.png"
 														 alt="" />
 														<span>
-															<a href="#" target="_blank" title="Link"><i class="icon icon-Linked"></i></a> <a class="zoom-out" href="http://themewisdom.com/demo/wpm/maxmuseum/wp-content/uploads/2016/12/gallery1.jpg"
+															<a href="#" target="_blank" title="Link"><i class="icon icon-Linked"></i></a> <a class="zoom-out" href="images/gallery/07.jpg"
 															 title="Classical Art"><i class="icon icon-Search"></i></a>
 														</span>
 													</div>
@@ -919,7 +930,7 @@
 										<div class="container-fluid no-padding visit-block" style='background-image: url(images/light-img.jpg);'>
 											<!-- Container -->
 											<div class="container">
-												<p>1,29,012</p>
+												<p><span class='numscroller' data-min='000000' data-max='000795' data-delay='5' data-increment='10'>000000</span></p>
 												<p class="lang-mal">സന്ദർശകർ</p>
 
 											</div><!-- Container -->
@@ -1103,6 +1114,7 @@
 	<script type='text/javascript' src='js/main.js?ver=1.1'></script>
 	<script type='text/javascript' src='http://themewisdom.com/demo/wpm/maxmuseum/wp-includes/js/wp-embed.min.js?ver=4.9.9'></script>
 	<script type='text/javascript' src='js/js_composer_front.min.js?ver=5.5.2'></script>
+	<script type='text/javascript' src='js/numscroller-1.0.js'></script>
 
 
 
