@@ -2245,12 +2245,14 @@ article[class*="type-"] .btn-block .tags a {
 	}
 }
 
+.history-details {
+	/* margin-top: 50px; */
+	max-width: 600px;
+	}	
+
 /* - max-width: 991 */
 @media (max-width: 991px) {
 	/* - History Section */
-	.history-details {
-		/* margin-top: 50px; */
-	}	
 	
 	/* - Venu Section */
 	.venu-section .venu-box {
