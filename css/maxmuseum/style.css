@@ -735,6 +735,12 @@ ul.lang-mal--meera li {
 .lang-mal--meera--large {
 	font-size: 1.8rem!important;
 	}
+
+header#main-header.header-section {
+	background: url(../../images/light-img.jpg)!important;
+	background-size: cover;
+	}
+
 .history-box p.lang-mal--meera,
 .history-box ul.lang-mal--meera p {
 	font-size: 1.7rem;
