@@ -176,9 +176,9 @@
 		}
 		
 		/* - History Section */
-		if( $(".history-section").length ) {
-			history_img();
-		}
+		// if( $(".history-section").length ) {
+		// 	history_img();
+		// }
 		
 		/* - Testimonial Carousel */
 		if( $(".testimonial-carousel").length ) {
