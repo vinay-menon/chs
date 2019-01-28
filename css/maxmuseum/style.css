@@ -712,11 +712,11 @@ footer .widget.widget_nav_menu ul li a:hover {
 	
 }
 .section-header h3 {
-	font-family: 'Manjari', sans-serif;
+	font-family: 'Keraleeyam', sans-serif;
 	color: hsla(0, 0%, 81%, 0.274);
 	font-size: 70px;
-	font-weight: bold;
-	letter-spacing: -1.6px;
+	font-weight: normal;
+	/* letter-spacing: -1.6px; */
 	text-transform: uppercase;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -757,8 +757,8 @@ ul.lang-mal--meera li {
 	background-color: rgba(255, 255, 255, 0.212);
 	text-transform: capitalize;
 	position: absolute;
-	font-size: 30px;
-	font-weight: 900;
+	font-size: 40px;
+	font-weight: normal;
 	left: 0;
 	right: 0;
 	letter-spacing: 0.96px;
