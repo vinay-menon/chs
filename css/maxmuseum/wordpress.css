@@ -1370,6 +1370,7 @@ article[class*="type-"] .entry-content > .btn-block .about-author a:hover {
 .image-logo svg {
 	width: 100%;
 	max-width: 300px;
+	max-height: 300px;
 	}
 
 @media (max-width: 408px) {
