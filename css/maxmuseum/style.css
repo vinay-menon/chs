@@ -309,7 +309,7 @@ input[type=number]::-webkit-outer-spin-button {
 	background-size: cover;
 	position: relative;
 	text-align: center;
-	padding: 97px;
+	padding: 97px 0;
 	padding-bottom: 130px;
 }
 .visit-block::before {
@@ -713,7 +713,7 @@ footer .widget.widget_nav_menu ul li a:hover {
 }
 .section-header h3 {
 	font-family: 'Manjari', sans-serif;
-	color: hsla(0, 0%, 81%, 0.473);
+	color: hsla(0, 0%, 81%, 0.274);
 	font-size: 70px;
 	font-weight: bold;
 	letter-spacing: -1.6px;

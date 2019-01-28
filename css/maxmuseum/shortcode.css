@@ -101,6 +101,16 @@ input[type=number]::-webkit-outer-spin-button {
 	background-position: center center;
 	background-repeat: no-repeat;
 }
+@media (min-width: 991px) {
+	.history-section .img-block {
+		position: sticky;
+		top: 0;
+		}
+	}
+.history-section .img-block img {
+	width: 100%;
+	max-width: 100%;
+}
 .history-details .history-box h3 {
 	font-family: 'Poppins', sans-serif;
 	font-size: 24px;
