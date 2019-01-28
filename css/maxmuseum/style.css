@@ -313,7 +313,6 @@ input[type=number]::-webkit-outer-spin-button {
 	padding-bottom: 130px;
 }
 .visit-block::before {
-	background-color: rgba(255,255,255,0.9);
 	content: "";
 	position: absolute;
 	display: inline-block;
