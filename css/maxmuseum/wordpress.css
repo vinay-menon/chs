@@ -1372,6 +1372,13 @@ article[class*="type-"] .entry-content > .btn-block .about-author a:hover {
 	max-width: 300px;
 	}
 
+@media (max-width: 408px) {
+	.image-logo svg {
+		width: 100%;
+		max-width: 200px;
+		}
+	}
+
 
 /* - Header Logo: Custom Text */
 .navbar-brand.custom-txt {
